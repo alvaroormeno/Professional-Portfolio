@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER IMAGE SECTION */
+/* HEADER IMAGE SECTION */
+header {
+    width: 100%;
+    padding: 20px 35px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: dimgray;
+    font-size: 35px;
+    padding: 5px 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Deletes bullet infront of bullet list */
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 15px; 
+}
+
+header nav ul li a {
+    /* Deletes any decoration after link has been pressed */
+    text-decoration: none;
+    color: dimgray;
+}
+
+/* HERO IMAGE SECTION */
+/* HERO IMAGE SECTION */
+.heroImage {
+    background-image: url("../images/nyc_skyline.jpeg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+/*  ABOUT ME SECTION */
+/*  ABOUT ME SECTION */
+
+
+.left-header {
+    flex: 10%;
+    font-size: 35px;
+    padding-left: 20px;
+    text-align: right ;
+    padding-right: 1rem;
+    justify-items: flex-start;
+   
+
+}
