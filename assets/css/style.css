@@ -55,12 +55,10 @@ header nav ul li a {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    
 }
 
-/*  ABOUT ME SECTION */
-/*  ABOUT ME SECTION */
-
+/* CLASSES FOR ABOUT ME - MY WORK - CONTACT ME */
+/* CLASSES FOR ABOUT ME - MY WORK - CONTACT ME */
 
 .left-header {
     flex: 10%;
@@ -69,6 +67,23 @@ header nav ul li a {
     text-align: right ;
     padding-right: 1rem;
     justify-items: flex-start;
-   
+} 
 
+.generic-layout {
+    flex: 90%;
+    width: 100%;
+    padding: 30px 40px;
+    padding-left: 0;
+    display: flex; 
+    justify-content: center; 
+    justify-items:flex-end ;
+}
+
+/* ABOUT ME SECTION */
+/* ABOUT ME SECTION */
+
+#about-me {
+    flex: 80%;
+    padding-left: 30px;
+    font-size: 1rem; 
 }
