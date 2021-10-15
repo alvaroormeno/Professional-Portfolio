@@ -21,7 +21,7 @@ header {
 }
 
 header h1 {
-    color: dimgray;
+    color: white;
     font-size: 35px;
     padding: 5px 10px;
 }
@@ -41,7 +41,7 @@ header nav ul li {
 header nav ul li a {
     /* Deletes any decoration after link has been pressed */
     text-decoration: none;
-    color: dimgray;
+    color: white;
 }
 
 /* HERO IMAGE SECTION */
@@ -67,6 +67,7 @@ header nav ul li a {
     text-align: right ;
     padding-right: 1rem;
     justify-items: flex-start;
+    border-right: black 4px solid;
 } 
 
 .generic-layout {
@@ -82,7 +83,7 @@ header nav ul li a {
 /* ABOUT ME SECTION */
 /* ABOUT ME SECTION */
 
-#about-me {
+.about-me {
     flex: 80%;
     padding-left: 30px;
     font-size: 1rem; 
@@ -140,4 +141,32 @@ header nav ul li a {
     grid-column: 2 / span 1 ;
     grid-row: 3 / span 1;
     background-image: url('../images/Lima.jpeg');
+}
+
+.work-grid-item h3 {
+    margin: 20px 10px 20px 0; 
+    padding: 10px; 
+    background-color: grey ;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+}
+
+.work-grid-item span {
+    font-size: 13px;
+}
+
+.work-grid-item a {
+    text-decoration: none;
+}
+
+
+/* CONTACT ME SECTION */
+/* CONTACT ME SECTION */
+
+.contact-info {
+    display: flex;
+    flex: 80%; 
+    padding: 40px;
+    justify-content: space-around;
 }
