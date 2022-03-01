@@ -128,13 +128,13 @@ header nav ul li a {
 .my-work-item-3 {
     grid-column: 3 / span 1 ;
     grid-row: 2 / span 2;
-    background-image: url('../images/fidi.jpeg');
+    background-image: url('../images/the_hype.png');
 }
 
 .my-work-item-4 {
     grid-column: 1 / span 1 ;
     grid-row: 3 / span 1;
-    background-image: url('../images/miami.jpeg');
+    background-image: url('../images/flight_for_tonight.png');
 }
 
 .my-work-item-5 {
